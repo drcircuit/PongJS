@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feb99bf3-1ce1-4008-82fa-2a1d005a18aa" name="Default" comment="renaming">
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\aiplayer.js" afterPath="$USER_HOME$/WebstormProjects/PongJS/js/players/aiplayer.js" />
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\ball.js" afterPath="$USER_HOME$/WebstormProjects/PongJS/js/equipment/ball.js" />
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\graphics.js" afterPath="$USER_HOME$/WebstormProjects/PongJS/js/world/graphics.js" />
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\humanplayer.js" afterPath="$USER_HOME$/WebstormProjects/PongJS/js/players/humanplayer.js" />
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\paddle.js" afterPath="$USER_HOME$/WebstormProjects/PongJS/js/equipment/paddle.js" />
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\physics.js" afterPath="$USER_HOME$/WebstormProjects/PongJS/js/world/physics.js" />
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\player.js" afterPath="$USER_HOME$/WebstormProjects/PongJS/js/players/player.js" />
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\pong.css" afterPath="$USER_HOME$/WebstormProjects/PongJS/css/pong.css" />
-      <change type="MOVED" beforePath="C:\Users\Espen\WebstormProjects\PongJS\pong.js" afterPath="$USER_HOME$/WebstormProjects/PongJS/js/pong.js" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/WebstormProjects/PongJS/pong.html" afterPath="$USER_HOME$/WebstormProjects/PongJS/pong.html" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/WebstormProjects/PongJS/.idea/workspace.xml" afterPath="$USER_HOME$/WebstormProjects/PongJS/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="feb99bf3-1ce1-4008-82fa-2a1d005a18aa" name="Default" comment="" />
     <ignored path="Pong.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -417,7 +405,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444432598092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="restructuring">
+      <created>1444433037094</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1444433037094</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -450,7 +444,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added basic stuff" />
     <MESSAGE value="renaming" />
-    <option name="LAST_COMMIT_MESSAGE" value="renaming" />
+    <MESSAGE value="restructuring" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructuring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
