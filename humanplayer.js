@@ -18,6 +18,6 @@ function HumanPlayer(paddle){
     };
     Player.apply(this, arguments);
     this.paddle = paddle;
-};
+}
 HumanPlayer.prototype = Player.prototype;
 HumanPlayer.prototype.constructor = HumanPlayer;

@@ -16,6 +16,6 @@ function AIPlayer(paddle){
     };
     Player.apply(this, arguments);
     this.paddle = paddle;
-};
+}
 AIPlayer.prototype = Player.prototype;
 AIPlayer.prototype.constructor = AIPlayer;
