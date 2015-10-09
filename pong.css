@@ -1,0 +1,32 @@
+body{
+    background-color:#09a;
+    background-image: linear-gradient(30deg, #045 12%, transparent 12.5%, transparent 87.5%, #045 87.5%, #045),
+    linear-gradient(150deg, #045 12%, transparent 12.5%, transparent 7%, #045 87.5%, #045),
+    linear-gradient(30deg, #045 12%, transparent 12.5%, transparent 87%, #045 87.5%, #045),
+    linear-gradient(150deg, #045 12%, transparent 12.5%, transparent 20%, #045 87.5%, #045),
+    linear-gradient(60deg, #09a 25%, transparent 25.5%, transparent 75%, #09a 75%, #09a),
+    linear-gradient(60deg, #09a 25%, transparent 25.5%, transparent 75%, #09a 75%, #09a);
+    background-size:80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    font-family: 'VT323';
+    text-align: center;
+}
+h1{
+    font-size: 40pt;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+h2{
+    font-size: 20pt;
+    padding: 0;
+    margin: 0;
+    margin-bottom:10px;
+}
+
+canvas{
+    display: block;
+    padding: 0;
+    margin: auto;
+    opacity: 0.7;
+}
