@@ -5,12 +5,12 @@ function Paddle(x, y, width, height){
     this.x = x;
     this.y = y;
     this.width = width;
-    this.lineWidth = height;
+    this.lineSize = height;
     this.speed = new Speed(0,0);
 }
 Paddle.prototype.render = function(){
     context.fillStyle = paddleColor;
-    context.fillRect(this.x, this.y, this.width, this.lineWidth);
+    context.fillRect(this.x, this.y, this.width, this.lineSize);
 };
 Paddle.prototype.left = function(){
     return this.x;
@@ -22,7 +22,7 @@ Paddle.prototype.top = function(){
     return this.y;
 };
 Paddle.prototype.bottom = function(){
-    return this.y + this.lineWidth;
+    return this.y + this.lineSize;
 };
 Paddle.prototype.moveLeft = function(){
     this.move(-paddleSpeed,0);

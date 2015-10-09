@@ -37,7 +37,7 @@ Label.prototype.render = function(){
 
 function CenterLine(width, lineWidth, length, gap, color){
     this.width = width;
-    this.lineWidth = lineWidth;
+    this.lineSize = lineWidth;
     this.gap = gap;
     this.length = length;
     this.color = color;
@@ -45,11 +45,11 @@ function CenterLine(width, lineWidth, length, gap, color){
 
 CenterLine.prototype.render = function(){
     var x = 0;
-    var y = (screenHeight - this.lineWidth) / 2;
+    var y = (screenHeight - this.lineSize) / 2;
     context.setLineDash([this.gap,this.length]);
     context.beginPath();
     context.moveTo(x,y);
-    context.lineWidth = this.lineWidth;
+    context.lineSize = this.lineSize;
     context.lineTo(this.width, y);
     context.strokeStyle = this.color;
     context.stroke();
