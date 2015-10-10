@@ -18,6 +18,8 @@ function HumanPlayer(paddle){
     };
     Player.apply(this, arguments);
     this.paddle = paddle;
+    this.scoreSound = new HitSound('media/audio/yay.mp3');
+    this.loseSound = new HitSound('media/audio/ohno.mp3');
 }
 HumanPlayer.prototype = Player.prototype;
 HumanPlayer.prototype.constructor = HumanPlayer;

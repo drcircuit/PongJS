@@ -1,6 +1,10 @@
 /**
  * Created by Espen on 09.10.2015.
  */
+function World(width, height){
+    this.width = width;
+    this.height = height;
+}
 function Speed(startX, startY){
     this.minX = startX;
     this.minY = startY;

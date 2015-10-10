@@ -25,10 +25,14 @@ validKeys[rightKey] = true;
 /* globals */
 var canvas = document.createElement('canvas');
 var controlKeys = {};
+var world = new World(screenWidth, screenHeight);
 
-canvas.width = screenWidth;
-canvas.height = screenHeight;
+canvas.width = world.width;
+canvas.height = world.height;
+
 var context = canvas.getContext('2d');
+
+//todo: refactor world into container for main functions. and get vars out of global space
 
 /* main methods */
 var animate = window.requestAnimationFrame ||

@@ -7,6 +7,7 @@ function Paddle(x, y, width, height, minSpeed){
     this.width = width;
     this.lineSize = height;
     this.speed = new Speed(minSpeed,minSpeed);
+    this.sound = new HitSound('media/audio/clank.mp3');
 }
 Paddle.prototype.render = function(){
     context.fillStyle = paddleColor;

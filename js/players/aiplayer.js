@@ -16,6 +16,8 @@ function AIPlayer(paddle){
     };
     Player.apply(this, arguments);
     this.paddle = paddle;
+    this.scoreSound = new SilentSound();
+    this.loseSound = new SilentSound();
 }
 AIPlayer.prototype = Player.prototype;
 AIPlayer.prototype.constructor = AIPlayer;
