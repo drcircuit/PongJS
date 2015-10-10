@@ -5,8 +5,8 @@
 function Ball(x,y, radius){
     this.x = x;
     this.y = y;
-    this.initX = x;
-    this.initY = y;
+    this.minX = x;
+    this.minY = y;
     this.radius = radius;
     this.speed = new Speed(0, initialBallSpeed);
 }

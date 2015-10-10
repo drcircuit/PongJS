@@ -72,8 +72,8 @@ var step = function (){
 /* Setup objects */
 var welcomeScreen = new WelcomeScreen('Welcome to','PongJs','by O2','press SPACEBAR to start the game',100,20);
 var centerLine = new CenterLine(screenWidth, 5, 13,13,textColor);
-var human = new AIPlayer(new Paddle(350,580,50,10));
-var computer = new AIPlayer(new Paddle(350,10,50,10));
+var human = new AIPlayer(new Paddle(350,580,50,10,1));
+var computer = new AIPlayer(new Paddle(350,10,50,10,1));
 var ball = new Ball(10,378,ballRadius);
 
 var labels = [
@@ -86,8 +86,8 @@ window.addEventListener('keydown',function(event){
     if(validKeys[event.keyCode])
         controlKeys[event.keyCode] = true;
     if(event.keyCode === startKey){
-        human = new HumanPlayer(new Paddle(175,580,50,10));
-        computer = new AIPlayer(new Paddle(175,10,50,10));
+        human = new HumanPlayer(new Paddle(175,580,50,10,0));
+        computer = new AIPlayer(new Paddle(175,10,50,10,0));
         ball = new Ball(200,300,ballRadius);
         started = true;
     }
