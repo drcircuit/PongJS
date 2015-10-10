@@ -35,9 +35,9 @@ Label.prototype.render = function(){
     context.fillText(this.message(), x + this.x, this.y);
 };
 
-function CenterLine(width, lineWidth, length, gap, color){
+function CenterLine(width, lineSize, length, gap, color){
     this.width = width;
-    this.lineSize = lineWidth;
+    this.lineSize = lineSize;
     this.gap = gap;
     this.length = length;
     this.color = color;
@@ -49,7 +49,7 @@ CenterLine.prototype.render = function(){
     context.setLineDash([this.gap,this.length]);
     context.beginPath();
     context.moveTo(x,y);
-    context.lineSize = this.lineSize;
+    context.strokeWidth = this.lineSize;
     context.lineTo(this.width, y);
     context.strokeStyle = this.color;
     context.stroke();
