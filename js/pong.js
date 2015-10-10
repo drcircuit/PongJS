@@ -70,7 +70,7 @@ var step = function (){
 };
 
 /* Setup objects */
-var welcomeScreen = new WelcomeScreen('Welcome to','PongJs','by O2','press SPACEBAR to start the game',100,20);
+var welcomeScreen = new WelcomeScreen('Welcome to','PongJS','by O2','press SPACEBAR to start the game',100,20);
 var centerLine = new CenterLine(screenWidth, 5, 13,13,textColor);
 var human = new AIPlayer(new Paddle(350,580,50,10,1));
 var computer = new AIPlayer(new Paddle(350,10,50,10,1));
