@@ -49,7 +49,7 @@ CenterLine.prototype.render = function(){
     context.setLineDash([this.gap,this.length]);
     context.beginPath();
     context.moveTo(x,y);
-    context.strokeWidth = this.lineSize;
+    context.lineWidth = this.lineSize;
     context.lineTo(this.width, y);
     context.strokeStyle = this.color;
     context.stroke();
